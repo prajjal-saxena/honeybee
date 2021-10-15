@@ -1,0 +1,106 @@
+/* Navbar */
+
+
+
+
+/* Home Section */
+
+
+
+/* Trusted shops Section */
+
+#trustedShops #shops{
+    border: 2px solid black;
+    flex-direction: column;
+    height: 480px;
+}
+#shops #logo img{
+    width: 199px;
+    height: 166px;
+   position: relative;
+   left: 40px;
+}
+#shops #detailHoney{
+    position: absolute;
+    top: 298px
+}
+#trustedShops::before {
+    height: 623px;
+}
+
+/* Honey Taste Section*/
+#honeyTaste{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 8px;
+}
+
+#honeyTaste #para {
+    /* border: 2px solid green; */
+    position: relative;
+    top: 30px;
+    left: 4px;
+    padding: 63px 63px;
+}
+
+#honeyTaste::before {
+    height: 650px;
+}
+
+#honeyTaste #logoHoney img{
+    width: 199px;
+    height: 166px;
+    position: relative;
+    left: 110px;
+}
+
+/* Our Product Section */
+#ourProduct {
+    border: 3px solid black;
+    margin-top: 18px;
+    position: relative;
+}
+#ourProduct #honeyContainer{
+    flex-direction: column;
+}
+
+#honeyContainer::before {
+    content: "";
+    background-color: rgb(224, 222, 222);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 492px;
+    width: 100%;
+    z-index: -1;
+}
+
+/* Footer Section */
+
+#footer{
+    display: flex;
+    position: relative;
+}
+#footer p{
+    display: block;
+    width: 166px;
+    height: 101px;
+    margin: auto;
+}
+#footer #imgRow{
+    display: flex;
+    flex-direction: column;
+}
+
+#footer::before {
+    content: "";
+    background-color: rgb(255, 174, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 291px;
+    width: 100%;
+    z-index: -1;
+}

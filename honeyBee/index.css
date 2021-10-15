@@ -1,0 +1,289 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* For Navbar */
+#navbar #logo h3{
+    margin: 13px 9px;
+    padding: 4px 17px;
+    color: rgb(255, 230, 0);
+}
+#navbar{
+    display: flex;
+    position: relative;
+    /* border: 2px solid black; */
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 3px solid rgb(39, 1, 39);
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar ul{
+    display: flex;
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 4px;
+    right: 81px;
+}
+#navbar ul li {
+    list-style: none;
+    padding: 4px 7px;
+    margin: 2px 6px;
+}
+
+#navbar ul li a{
+    padding: 3px 10px;
+    text-decoration: none;
+    border-radius: 11px;
+    color: black;
+}
+
+#navbar ul li:hover a{
+    background-color: white;
+    color: rgb(255, 179, 0);
+}
+/* Home section */
+#home{
+    margin: 31px 22px;
+    padding: 11px 17px;
+    border: 2px solid black;
+    border-radius: 46px;
+}
+
+#home::before{
+    content: "";
+    background: url('img/honeybee.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 418px; 
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#home h5{
+    font-size: 60px;
+    line-height: 80px;
+    margin: 2px 2px;
+}
+#home .btnHome{
+    padding: 5px 16px;
+    margin: 13px 5px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+#home #buyNow{
+    background-color: black;
+    color: white;
+}
+
+/* Trusted Shops */
+
+#trustedShops{
+    /* border: 3px solid green; */
+    position: relative;
+}
+
+#trustedShops h4{
+    /* border: 2px solid black; */
+    text-align: center;
+    font-size: 34px;
+    padding-top: 16px;
+}
+
+#trustedShops #list{
+    display: flex;
+}
+
+#trustedShops #list li{
+    list-style: none;
+    margin: 2px 31px;
+}
+
+#trustedShops #shops{
+    display: flex;
+}
+
+#shops img{
+    height: 320px;
+    width: 369px;
+    padding: 24px 67px;
+}
+
+#shops #detailHoney{
+    /* border: 2px solid rgb(255, 230, 0); */
+    position: absolute;
+    right: 163px;
+    padding: 71px 34px;
+}
+#shops #detailHoney h2{
+    font-size: 30px;
+}
+
+#trustedShops::before{
+    content: "";
+    background-color: rgb(224, 222, 222);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 542px; 
+    width: 100%;
+    z-index: -1;    
+}
+
+/* Honey Taste Section */
+#honeyTaste{
+    /* border: 2px solid black; */
+    display: flex;
+    position: relative;
+}
+
+#honeyTaste #logoHoney img{
+    height: 320px;
+    width: 369px;
+    position: absolute;
+    right: 119px;
+    margin-top: 30px;
+}
+
+#honeyTaste #para{
+    /* border: 2px solid green; */
+    position: relative;
+    top: 30px;
+    left: 50px;
+    padding: 63px 63px;
+}
+
+#honeyTaste #para h4{
+    font-size: 30px;
+}
+
+#honeyTaste::before{
+    content: "";
+    background-color: rgb(224, 222, 222);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 526px; 
+    width: 100%;
+    z-index: -1;    
+}
+
+/* Our Products section */
+
+#ourProduct{
+   /* border: 3px solid black; */
+   margin-top: 94px;
+}
+
+#honeyContainer{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#honeyContainer .honey{
+    /* border: 2px solid black; */
+    display: flex;
+    margin: 4px 11px;
+    width: 486px;
+    height: 202px;
+    padding: 19px;
+    background-color: rgb(247, 237, 211);
+}
+
+
+#honeyContainer .jarImg{
+    width: 200px;
+    height: 200px;
+    margin-left: 22px;
+}
+#ourProduct h4{
+    font-size: 30px;
+    padding-left: 34px;
+    margin: 8px 77px;
+}
+
+#honeyContainer .buyBtn{
+    padding: 4px 18px;
+    background-color: white;
+    border-color: rgb(252, 127, 10);
+    color: rgb(252, 127, 10);
+    cursor: pointer;
+}
+#honeyContainer::before{
+    content: "";
+    background-color: rgb(224, 222, 222);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 249px; 
+    width: 100%;
+    z-index: -1;    
+}
+
+/* Footer */
+#footer{
+    display: flex;
+    position: relative;
+}
+
+#footer::before{
+    content: "";
+    background-color: rgb(255, 174, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 161px; 
+    width: 100%;
+    z-index: -1;    
+}
+
+#footer #imgRow{
+    position: absolute;
+    right: 20px;
+}
+
+#footer .imgFooter{
+    width: 200px;
+    height: 164px;
+}
+
+#footer #imgFoo{
+    height: 137px;
+}
+
+#footer p{
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 44px;
+    right: 88px;
+}
+#footer h2{
+    position: relative;
+    top: 24px;
+    left: 49px;
+}
+
+/* For buttons */
+.btn{
+    padding: 10px 23px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    cursor: pointer;
+}
